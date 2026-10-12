@@ -67,8 +67,7 @@ Building elegant layouts using Material-UI components.
 - [ ] **Geolocation Auto-Detection:** Automatically detect the user's current city/country using Browser Geolocation API.
 - [ ] **Azan Audio Notifications:** Add full Azan audio playback options for prayer time alerts.
 
-🖥️ Project Preview
+
 👩‍💻 Author
 Heba Shamsene
-
 GitHub: @hebashamsene
