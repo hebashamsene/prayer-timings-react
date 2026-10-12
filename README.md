@@ -1,87 +1,74 @@
-# React Prayer Timing 
+# React Prayer Timings
 
-A simple loan application form built with **React Vite**.
+A simple React application to display daily Islamic prayer times and a countdown to the next prayer using the Aladhan API.
 
 ## 📌 About the Project
 
-This project is a React application that provides a user-friendly Prayer Timing application form.
-
+This project is a React application built with **Vite** and **Material-UI** that fetches accurate daily prayer times for selected cities and displays a live countdown timer for the upcoming prayer.
 
 ## 🚀 Features
 
-* Prayer Timing application form
-* State management using `useState`
-* Conditional rendering
-* Modal component
-* CSS styling
-* Simple user interface
+* Fetches real-time prayer timings via Aladhan API.
+* Dynamic city selection with automatic time update.
+* Live countdown timer for the next prayer.
+* Clean UI styled with Material-UI (MUI) components.
 
 ## 🛠️ Technologies Used
 
-* React vite
-* JavaScript
-* React Hooks (`useState`)
-* CSS
-* HTML
-
-## 📂 Project Structure
-
+* React (Vite)
+* JavaScript (ES6+)
+* React Hooks (`useState`, `useEffect`)
+* Material-UI (MUI)
+* Axios
+* Moment.js
 
 
-## ⚙️ Installation
-
+⚙️ Installation
 Clone the repository:
 
-```bash
-git clone https://github.com/hebashamsene/React-App.git
-
+git clone [https://github.com/hebashamsene/prayer-times-app.git](https://github.com/hebashamsene/prayer-times-app.git)
 
 Go to the project folder:
 
-```bash
-cd React-App
-
-
+Bash
+cd prayer-times-app
 Install the dependencies:
 
-```bash
+Bash
 npm install
-```
-
 Start the application:
 
-```bash
+Bash
 npm run dev
-
-
 The application will run locally at:
 
-```text
-http://localhost:3000
+Plaintext
+http://localhost:5173
 
-
-## 🎯 Learning Goals
-
+🎯 Learning Goals
 This project was created to practice:
 
-* Building reusable React components
-* Managing component state with `useState`
-* Styling React components with CSS
-* Organizing a React project
+Fetching data from REST APIs using axios.
+
+Working with complex time calculations and countdown timers using moment.js.
+
+Managing component side effects with useEffect.
+
+Building elegant layouts using Material-UI components.
 
 ## 🖥️ Project Preview
+![Prayer Times Preview 1](images/111.png)
+![Prayer Times Preview 2](images/222.png)
 
-## 🖥️ Project Preview
+## 🔮 Future Roadmap
 
-## 🖥️ Project Preview
+- [ ] **Automatic Daylight Saving Time Adjustment:** Implement automatic DST detection and offset handling for countries with seasonal time shifts.
+- [ ] **Global Location Support:** Expand the city selector to include all major international cities and countries.
+- [ ] **Geolocation Auto-Detection:** Automatically detect the user's current city/country using Browser Geolocation API.
+- [ ] **Azan Audio Notifications:** Add full Azan audio playback options for prayer time alerts.
 
-![Screenshot 1](111.png)
+🖥️ Project Preview
+👩‍💻 Author
+Heba Shamsene
 
-![Screenshot 2](222.png)
-
-
-## 👩‍💻 Author
-
-**Heba Shamsene**
-
-GitHub: [hebashamsene](https://github.com/hebashamsene)
+GitHub: @hebashamsene
