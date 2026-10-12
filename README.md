@@ -57,8 +57,8 @@ Managing component side effects with useEffect.
 Building elegant layouts using Material-UI components.
 
 ## 🖥️ Project Preview
-![Prayer Times Preview 1](images/111.png)
-![Prayer Times Preview 2](images/222.png)
+![Prayer Times Preview 1](./images/111.png)
+![Prayer Times Preview 2](./images/222.png)
 
 ## 🔮 Future Roadmap
 
