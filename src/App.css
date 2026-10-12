@@ -1,0 +1,38 @@
+ html{
+  direction: rtl;
+  
+}
+#root{
+  /* background-color: rgb(128, 128, 128); */
+  background-color: #c9a227;
+}
+.MuiOutlinedInput-notchedOutline{
+  border-color: white !important;
+}
+.MuiSvgIcon-root{
+  color: white !important;
+}
+.MyStyle{
+            color:#c9a227 !important;
+            text-align:center;
+            border: 1px solid #2f6f73;
+            border-radius: 10px;
+           box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.12) ;
+}
+.cardStyle{
+           text-align:center;
+            border: 1px solid #2f6f73;
+            border-radius: 10px;
+           box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.12) ;
+}
+.pulse{
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse{
+  0%,100%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.03);
+  }
+}
